@@ -15,9 +15,11 @@
 // }
 
 let divUsuarios = document.querySelector("#usuarios")
+// let NomeUsuario = document.getElementById("NomeUsuario")
+// let SenhaUsuario = document.querySelector("SenhaUsuario")
 
 fetch("dados.json").then((response) => {
-        response.json().then((usuarios) => {
-            console.log(usuarios);
-        })
+    response.json().then((usuarios) => {
+        console.log(usuarios)
+    })
 })
